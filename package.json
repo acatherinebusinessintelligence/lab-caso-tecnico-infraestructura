@@ -1,0 +1,17 @@
+{
+  "name": "lab-caso-tecnico-infraestructura",
+  "version": "1.0.0",
+  "description": "Laboratorio de análisis del Caso Técnico — Gestión de la Infraestructura (H5P)",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev-server.mjs",
+    "test:smoke": "node _smoke_test.mjs",
+    "build": "node scripts/build-h5p.mjs",
+    "build:h5p": "node scripts/build-h5p.mjs",
+    "pack:h5p": "node scripts/pack-h5p.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.0"
+  }
+}

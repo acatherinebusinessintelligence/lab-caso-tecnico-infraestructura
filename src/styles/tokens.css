@@ -1,0 +1,80 @@
+/* Tokens — identidad institucional (referencia visual H5P Infraestructura) */
+:root {
+  --blue-dark: #0b2c5e;
+  --blue-mid: #1a6cb5;
+  --blue-soft: #3b86c8;
+  --blue-tint: #e8f1f8;
+  --blue-tint-2: #f3f8fc;
+  --white: #ffffff;
+  --ink: #1c2b3a;
+  --muted: #5a6b7d;
+  --border: #d5e2ef;
+  --yellow: #f0c400;
+  --yellow-warn: #e6b800;
+  --yellow-soft: #fff8db;
+  --green: #1f7a4d;
+  --green-soft: #e7f6ee;
+  --red: #b42318;
+  --red-soft: #fdeceb;
+  --orange-soft: #fff1e0;
+  --radius: 14px;
+  --radius-sm: 10px;
+  --shadow: 0 8px 24px rgba(11, 44, 94, 0.08);
+  --focus: 0 0 0 3px rgba(26, 108, 181, 0.35);
+  --font: "Segoe UI", "Helvetica Neue", Arial, sans-serif;
+  --max: 1100px;
+  --header-h: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  font-family: var(--font);
+  color: var(--ink);
+  background: var(--blue-tint-2);
+  line-height: 1.5;
+}
+
+button,
+input,
+select,
+textarea {
+  font: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+a {
+  color: var(--blue-mid);
+}
+
+:focus-visible {
+  outline: none;
+  box-shadow: var(--focus);
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+
+#app {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
