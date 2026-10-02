@@ -108,7 +108,6 @@ El currículo completo (preguntas/feedback de etapas) permanece embebido en `src
 
 ## 11. Limitaciones
 
-- BUILD DE PRUEBA — no producción certificada.
 - Preguntas académicas aún no son 100 % editables desde semantics (por diseño).
 - xAPI depende de que el core H5P/Moodle tenga tracking habilitado.
 - Resize usa `trigger('resize')`; validar altura del iframe en el tema Moodle.
